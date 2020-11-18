@@ -1,0 +1,9 @@
+[submodule "CS-Notes"]
+	path = CS-Notes
+	url = https://github.com/CyC2018/CS-Notes.git
+[submodule "fucking-algorithm"]
+	path = fucking-algorithm
+	url = git@github.com:labuladong/fucking-algorithm.git
+[submodule "hello-algorithm"]
+	path = hello-algorithm
+	url = git@github.com:geekxh/hello-algorithm.git
