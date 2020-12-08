@@ -7,3 +7,6 @@
 [submodule "hello-algorithm"]
 	path = hello-algorithm
 	url = git@github.com:geekxh/hello-algorithm.git
+[submodule "coding-interview-university"]
+	path = coding-interview-university
+	url = git@github.com:jwasham/coding-interview-university.git

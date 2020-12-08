@@ -1,7 +1,14 @@
+【toc】
 # git_collect_sub
 个人收集的有用项目，使用git submodule方式，引用已有项目。
+
+# 项目环境
 ## submodule的使用
 参考：[Git 子模块submodule的使用](https://blog.csdn.net/h4x0r_007/article/details/108167592)
+- 增加submodule
+  ```shell
+  git  submodule add https://SubModule.git
+  ```
 - 首次拉取
   ```
   git clone https://github.com/h4x0r139/git_collect_sub.git
@@ -31,31 +38,29 @@ errno 56，有大文件或者提交缓存方面的问题：增大缓存配置，
   git config https.postBuffer 524288000
   ```  
 
-## 引用的项目列表
-- [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)：技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++
-- [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)，[电子书](https://labuladong.gitbook.io/algo/)：68k，刷算法思路，数据结构、动态规划、算法思维、高频面试题
-- [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)：60k，动画演示leetcode算法
-- [hello-algorithm](https://github.com/geekxh/hello-algorithm)：19.7k，小浩算法图解，后端
+# 项目列表
+1. [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)：技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++
+1. [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)，[电子书](https://labuladong.gitbook.io/algo/)：68k，刷算法思路，数据结构、动态规划、算法思维、高频面试题
+1. [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)：60k，动画演示leetcode算法
+1. [hello-algorithm](https://github.com/geekxh/hello-algorithm)：19.7k，小浩算法图解，后端
+1. [google 面试大学](https://github.com/jwasham/coding-interview-university)，145k
 
-## TODO
+# TODO
 
 
-### Android 面试
-- [Android 高级开发整理的面试题以及答案](https://github.com/jinguangyue/Android-Advanced-Interview)
-Java 算法实现
-https://github.com/TheAlgorithms/Java
-https://github.com/h4x0r139/Java
-Algorithms, 4th Edition 算法4精华笔记，通俗理解，算法收集与强化
-https://github.com/MeandNi/Algorithms4-Common
+## Study 记录
 
-算法图解：https://github.com/zhanwen/AlgorithmDiagram
-牛客网-剑指offer：https://github.com/DmrfCoder/AlgorithmAndDataStructure
-cache
-https://github.com/Tencent/MMKV
 
-### LeetCode
+## Android
+1. [Android 高级开发整理的面试题以及答案](https://github.com/jinguangyue/Android-Advanced-Interview)
+1. [Java 算法实现](https://github.com/TheAlgorithms/Java)，https://github.com/h4x0r139/Java
+1. [Algorithms, 4th Edition 算法4精华笔记](https://github.com/MeandNi/Algorithms4-Common)，通俗理解，算法收集与强化
+1. [算法图解](https://github.com/zhanwen/AlgorithmDiagram)
+1. [牛客网-剑指offer](https://github.com/DmrfCoder/AlgorithmAndDataStructure)
+1. [MMKV](https://github.com/Tencent/MMKV)
 
-- [azl397985856/leetcode](https://github.com/azl397985856/leetcode)：37.5k，力扣加加
-- [yuanguangxin/LeetCode](https://github.com/yuanguangxin/LeetCode)：LeetCode题目分类与面试问题整理：
-- [LeetCodeGraphically](https://github.com/lefex/LeetCodeGraphically)：图解 LeetCode 算法：
-- [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)：4.2k，汇总各大互联网公司（阿里，百度，字节，快手）容易考察的高频leetcode题
+## LeetCode
+1. [azl397985856/leetcode](https://github.com/azl397985856/leetcode)：37.5k，力扣加加
+1. [yuanguangxin/LeetCode](https://github.com/yuanguangxin/LeetCode)：LeetCode题目分类与面试问题整理：
+1. [LeetCodeGraphically](https://github.com/lefex/LeetCodeGraphically)：图解 LeetCode 算法：
+1. [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)：4.2k，汇总各大互联网公司（阿里，百度，字节，快手）容易考察的高频leetcode题
